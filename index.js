@@ -14,7 +14,7 @@ module.exports = {
         }
       },
       requiredConfig: ['bucket', 'name', 'region'],
-      didDeploy: function (context) {
+      activate: function (context) {
         const bucket = this.readConfig('bucket')
         const region = this.readConfig('region')
         const accessKeyId = this.readConfig('accessKeyId')
