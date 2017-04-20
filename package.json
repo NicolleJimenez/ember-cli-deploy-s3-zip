@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-s3-zip",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Upload ember dist dir zipped to S3",
   "keywords": [
     "ember-addon",
